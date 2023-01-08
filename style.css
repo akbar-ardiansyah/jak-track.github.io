@@ -15,10 +15,17 @@ body {
     height: 100vh;
 }
 
+section {
+    margin-top: 10vh;
+}
+
 .section-content img {
     min-height: 80px;
 }
 
+.text-justify {
+    text-align: justify !important;
+}
 
 .bg-blue {
     background: var(--bs-blue);
@@ -44,8 +51,30 @@ body {
     .section-content img {
         min-height: 10px;
     }
+
+    nav img {
+        width: 200px;
+    }
+
+    .logo-tagline img {
+        width: 100px;
+    }
 }
 
+footer {
+    background: #fff;
+    padding-top: 10px;
+    /* position: absolute;
+    bottom: 0; */
+}
+
+.social-media img {
+    width: 25px;
+}
+
+footer img {
+    width: 200px;
+}
 
 /*--------------------------------------------------------------
 # Preloader
