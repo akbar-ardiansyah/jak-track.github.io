@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap demo</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="aos/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="heading text-center mt-5" data-aos="zoom-in">
+                <div class="heading-text">
+                    Selamat Datang di
+                </div>
+                <img src="img/jak-track-logo.svg" alt="jak-track-logo.svg" class="img-fluid">
+            </div>
+            <div class="section-content mt-5" data-aos="zoom-in">
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 col-sm-10">
+                        <div class="card mb-4 pt-lg-2 pb-lg-2 border border-0 bg-green">
+                            <a href="#" class="text-center"><img src="img/jak-teman.svg"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-10">
+                        <div class="card mb-4 pt-lg-2 pb-lg-2 border border-0 bg-red">
+                            <a href="#" class="text-center"><img src="img/jak-reservasi.svg"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-10">
+                        <div class="card mb-4 pt-lg-2 pb-lg-2 border border-0 bg-blue">
+                            <a href="#" class="text-center"><img src="img/jak-ambil-obat.svg"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-10">
+                        <div class="card mb-4 pt-lg-2 pb-lg-2 border border-0 bg-green-light">
+                            <a href="#" class="text-center"><img src="img/jak-cek-resiko.svg"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-10">
+                        <div class="card mb-4 pt-lg-2 pb-lg-2 border border-0 bg-purple">
+                            <a href="#" class="text-center"><img src="img/jak-kinerja.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="preloader"></div>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="aos/aos.js"></script>
+    <script>
+        // Preloader
+        const preloader = document.querySelector('#preloader');
+        if (preloader) {
+            window.addEventListener('load', () => {
+                preloader.remove();
+            });
+        }
+
+        function aos_init() {
+            AOS.init({
+                duration: 1000,
+                easing: 'ease-in-out',
+                once: true,
+                mirror: false
+            });
+        }
+        window.addEventListener('load', () => {
+            aos_init();
+        });
+    </script>
+
+</body>
+
+</html>
