@@ -79,6 +79,10 @@ section {
     .logo-tagline img {
         width: 100px;
     }
+
+    .sign-in img {
+        width: 100px !important;
+    }
 }
 
 footer {
@@ -90,6 +94,10 @@ footer {
 
 .social-media img {
     width: 25px;
+}
+
+.sign-in img {
+    width: 200px;
 }
 
 footer img {
