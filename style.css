@@ -16,7 +16,7 @@ body {
 }
 
 section {
-    margin-top: 10vh;
+    margin-top: 10rem !important;
 }
 
 .section-content img {
@@ -59,9 +59,23 @@ section {
     .logo-tagline img {
         width: 50% !important;
     }
+
+    section {
+        margin-top: 7rem !important;
+    }
+}
+
+@media (max-width: 500px) {
+    section {
+        margin-top: 4rem !important;
+    }
 }
 
 @media (max-width: 375px) {
+    section {
+        margin-top: 5rem !important;
+    }
+
     nav img {
         width: 150px;
     }
