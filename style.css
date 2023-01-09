@@ -47,6 +47,10 @@ section {
     background: var(--bs-red);
 }
 
+.bg-solid-green {
+    background: rgba(75, 100, 43, 0.8);
+}
+
 @media (max-width: 335px) {
     nav img {
         width: 50% !important;
