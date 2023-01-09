@@ -47,6 +47,26 @@ section {
     background: var(--bs-red);
 }
 
+@media (max-width: 335px) {
+    nav img {
+        width: 50% !important;
+    }
+
+    .logo-tagline img {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 375px) {
+    nav img {
+        width: 150px;
+    }
+
+    .logo-tagline img {
+        width: 100px;
+    }
+}
+
 @media (max-width: 575px) {
     .section-content img {
         min-height: 10px;
