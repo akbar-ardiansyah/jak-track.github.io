@@ -21,7 +21,7 @@ section {
 
 .hero {
     min-height: 30vh;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #9fbc2e99, #41632699), url('https://www.pixelstalk.net/wp-content/uploads/2016/12/Abstract-Green-Wallpaper-HD.jpg');
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #9fbc2e, #416326), url('https://www.pixelstalk.net/wp-content/uploads/2016/12/Abstract-Green-Wallpaper-HD.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 15px;
