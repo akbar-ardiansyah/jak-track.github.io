@@ -19,6 +19,54 @@ section {
     margin-top: 10rem !important;
 }
 
+.hero {
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.18);
+}
+
+.heading-text {
+    color: aliceblue;
+}
+
+.stack-card-ornament {
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.18);
+    border-radius: 0 0 15px 15px;
+    height: 100px;
+}
+
+.sco-1 {
+    position: absolute;
+    background: #097645;
+    bottom: -8px;
+    z-index: 9;
+    margin: 0 19px;
+    right: 0;
+    left: 0;
+}
+
+.sco-2 {
+    position: absolute;
+    background: #0C9859;
+    bottom: -15px;
+    z-index: 8;
+    margin: 0 29px;
+    right: 0;
+    left: 0;
+}
+
+@media (max-width: 500px) {
+    .heading-text {
+        font-size: 12px;
+    }
+
+}
+
 .section-content img {
     min-height: 80px;
 }
@@ -48,7 +96,8 @@ section {
 }
 
 .bg-solid-green {
-    background: rgba(75, 100, 43, 0.8);
+    background: linear-gradient(180deg, #1BB14D 0%, #0B7545 57.81%, #406426 100%);
+    ;
 }
 
 @media (max-width: 335px) {
@@ -67,7 +116,7 @@ section {
 
 @media (max-width: 500px) {
     section {
-        margin-top: 4rem !important;
+        margin-top: 6rem !important;
     }
 }
 
